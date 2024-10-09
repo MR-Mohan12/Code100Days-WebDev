@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.nav-left {
+  font-size: 30px;
+  display: flex;
+}
+.nav-left ul {
+  display: flex;
+  align-items: center;
+  /* margin: 0 77px; */
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.nav-left ul li {
+  list-style: none;
+  margin: 0 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-left ul li a:hover {
+  font-weight: bolder;
+  color: orange;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  margin-top: 40px;
+
+  position: relative;
+}
+.content::after{
+    content: "";
+    background-image: url('../img/11.svg');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+
+}
+.content-left {
+  font-family: system-ui, Roboto, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  z-index: 1;
+}
+
+.content-right {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.content-right img {
+  height: 300px;
+  border: 1.5px solid black;
+  border-radius: 200px;
+}
+
+.home-articles {
+  padding: 18px;
+  margin-top: 23px !important;
+  margin-bottom: 23px !important;
+  background-color: rgb(248, 239, 239,0.5);
+  position: relative;
+}
+.year-box{
+  position: absolute;
+  width: 200px;
+  height: 220px;
+
+  top: 40px;
+  right: 0px;
+  /* background-color: red; */
+}
+.year-box div {
+  margin-top: 12px 0px;
+  font-size: 15px;
+}
+
+.home-article {
+  display: flex;
+  margin: 25px;
+}
+.home-article-content {
+  align-self: center;
+  padding: 0px 25px;
+}
+.home-article-content a{
+    text-decoration: none;
+    color: black;
+}
+.home-article-img img {
+  width: 300px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  background-color: rgba(205, 11, 11, 0.838);
+}
