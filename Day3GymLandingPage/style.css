@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 80vw;
+}
+.navbar {
+  display: flex;
+  height: 67px;
+  font-family: sans-serif;
+}
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+.topleft {
+  width: 50%;
+}
+.topright {
+  width: 50%;
+}
+.topright .gymimg {
+  width: 366px;
+}
+.section1 {
+  max-height: 100vh;
+  color: #711e15;
+}
+
+.section1 h1 {
+  color: #37110d;
+  font-size: 2.3rem;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+
+.dumbelling {
+  width: 300px;
+}
+.section2 {
+  padding-left: 63px;
+  padding-right: 63px;
+}
+.section2 h1 {
+  font-size: 2rem;
+}
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border-radius: 20px;
+   border: 1px solid black;
+   text-align: center;
+}
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul {
+    list-style: none;
+}
+.box ul li {
+    margin: 12px 2px;
+}
+
+.plantable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section3 table{
+  width: 100%;
+  margin-bottom: 140px;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.section3 table th{ 
+  width: 23vw; 
+  border-bottom: 2px solid black;
+  padding: 15px 0;
+} 
+
+.section3 table td{   
+  border-bottom: 2px solid black; 
+} 
+
+
+.section3 h1{
+  font-size: 2.3rem;
+}
+
+.section3{
+  padding: 73px;
+}
+
+footer{
+  padding: 23px;
+  text-align: center;
+}
+
+
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+ 
+}
+
+.deal{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 12px 0;
+}
