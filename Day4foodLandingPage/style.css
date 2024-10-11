@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(224, 222, 222);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+  color: white;
+  padding: 22px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  margin-inline: 23px;
+  font-size: 20px;
+  color: white;
+}
+ul li a:hover {
+  color: orange;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.icons i {
+  margin-inline: 11px;
+  background-color: silver;
+  padding: 6px;
+  border-radius: 4px;
+  color: black;
+  font-size: 20px;
+}
+.logo {
+  font-size: 20px;
+}
+.logo span {
+  color: red;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px;
+  background-color: rgb(94, 94, 94);
+  color: white;
+  margin-top: 76px;
+}
+.mainText {
+  margin-top: 97px;
+}
+.mainText h1 {
+  font-size: 55px;
+}
+.mainText h1 span {
+  color: greenyellow;
+}
+.mainText h3 {
+  margin-top: 15px;
+  font-size: 33px;
+}
+.mainText h3 span {
+  color: orangered;
+}
+.mainText p {
+  margin-top: 15px;
+}
+.mainText button {
+  width: 130px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(25, 171, 17);
+  border-radius: 5px;
+  margin-top: 22px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.mainText button:hover {
+  background-color: greenyellow;
+}
+.img img {
+  height: 75vh;
+  border-radius: 50%;
+}
+
+.food {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  font-size: 36px;
+}
+
+.head h1 span {
+  color: #ff6347;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  width: 80%;
+  margin: auto;
+
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.foodcard {
+  flex: 1 1 200px;
+  max-width: 260px;
+  height: 400px;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.foodcard img {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 15px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.foodcard img:hover {
+  transform: translateY(-10px);
+}
+
+.foodcard h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.foodcard p {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.foodcard button {
+  padding: 10px 20px;
+  background-color: #ff6347;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.foodcard button:hover {
+  background-color: #e55342;
+}
+
+.customer-reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 250px;
+  position: relative;
+  margin: auto;
+  margin-bottom: 20px !important;
+}
+
+.reviews {
+  width: 800px;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1s ease;
+}
+
+.reviews.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.reviews .crd {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  background-color: #777;
+  transition: all 1s ease;
+}
+
+.crd img {
+  width: 22%;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.blogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blogCard {
+  width: 300px;
+  height: 360px;
+  background-color: #777;
+  margin-top: 23px;
+  margin-inline: 20px;
+}
+.blogCard img {
+  width: 100%;
+  height: 200px;
+}
+.blogCard img:hover {
+  transform: translateY(-10px);
+}
+.blogCard h3 {
+  margin-top: 11px;
+  margin-left: 11px;
+}
+.blogCard p {
+  margin-top: 11px;
+  margin-left: 11px;
+}
+.blogCard a {
+  position: absolute;
+  background-color: orangered;
+  color: white;
+  text-decoration: none;
+  width: 80px;
+  text-align: center;
+  padding: 4px;
+  border-radius: 4px;
+  margin-top: 11px;
+  margin-left: 11px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  color: #333;
+  padding: 66px;
+  margin-top: 44px;
+}
+.text {
+  flex: 1 1 20%;
+  padding: 0 20px;
+}
+.text p {
+  margin-top: 11px;
+}
+.creater {
+  text-align: center;
+  padding: 23px;
+  background-color: white;
+  border-top: 2px solid black;
+}
+
+#bar {
+    display: none;
+}
+.searchBar{
+    display: none;
+}
+.active1{
+    display: block;
+
+}
+.active1 input{
+    width: 200px;
+    margin-top: 12px;
+    padding: 6px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    position: fixed;
+    top: 12%;
+    right: 2%;
+  
+}
+.loginPage{
+    display: none;
+}
+.active2{
+    display: block;
+    width: 300px;
+    padding: 11px;
+    border-radius: 4px;
+    background-color: white;
+    margin-top: 15px;
+    position: fixed;
+    top: 12%;
+    right: 2%;
+    text-align: center;
+}
+
+.active2  input{
+    margin-top: 11px;
+    width: 280px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 6px;
+    
+}
+.active2 button{
+    width: 80px;
+    height: 28px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 23px;
+}
+
+
+ @media only screen and (max-width:900px){
+  .main{
+    display: block;
+    text-align: center;
+  }
+  .reviews{
+    width: 90%;
+  }
+ }
+
+
+
+
+
+ @media only screen and (max-width: 650px){
+  .main img{
+    width: 80%;
+
+  }
+}
+@media only screen and (max-width: 650px){
+  .mainYext h1{
+  font-size: 33px;
+
+  }
+  .mainYext h3{
+    font-size: 23px;
+  
+    }
+    .crd img{
+      height: 80px;
+    }
+    .icons{
+      margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width:750px){
+  ul{
+   display: none;
+  }
+  #bar{
+   display: block;
+  }
+  .showData{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   position: absolute;
+   background-color: silver;
+   top: 75px;
+   width: 100%;
+  }
+
+
+} 
