@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #eeee;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeee;
+  padding: 17px;
+  box-shadow: 0px 2px 2px 2px gray;
+}
+nav .logo {
+  margin-left: 22px;
+  font-size: 24px;
+}
+ul {
+  margin-right: 45px;
+  margin-top: 7px;
+}
+nav ul li {
+  list-style: none;
+}
+#home {
+  color: orangered;
+}
+ul li a {
+  text-decoration: none;
+  margin-inline: 23px;
+  font-size: 20px;
+  cursor: pointer;
+}
+ul li a {
+  text-decoration: none;
+  margin-inline: 23px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+ul li a i:hover {
+  color: orangered;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  height: 550px;
+}
+.main .mainText {
+  margin-top: 140px;
+  font-size: 23px;
+}
+.top {
+  color: orangered;
+}
+.mainText button {
+  width: 144px;
+  height: 50px;
+  background-color: orangered;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  color: white;
+}
+.mainText button:hover {
+  border: 2px solid rgba(255, 68, 0, 0.47);
+  background-color: transparent;
+  color: black;
+}
+
+.head {
+  text-align: center;
+  padding: 23px;
+  margin-top: 22px;
+}
+.head span {
+  color: orangered;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.card .crd {
+  width: 250px;
+  height: 400px;
+  background-color: white;
+  margin-inline: 11px;
+  border-radius: 11px;
+}
+
+.crd:hover {
+  transition: 0.6s ease;
+  width: 270px;
+  height: 420px;
+}
+.crd img {
+  width: 55%;
+  padding: 23px;
+  border-radius: 11px;
+}
+.crd-text {
+  margin-left: 16px;
+  padding: 8px;
+  /* align-items: center; */
+}
+.crd-text i {
+  margin-top: 10px;
+  color: rgb(177, 177, 12);
+}
+.crd-text button {
+  width: 60px;
+  height: 30px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-size: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.crd-text button:hover {
+  border: 2px solid orangered;
+  background-color: transparent;
+  color: black;
+}
+.crd-text h2 {
+  margin-left: 11px;
+}
+
+.blog {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  margin-inline: 22px;
+  border-radius: 11px;
+}
+.blog:hover {
+  transition: 0.6s ease;
+  width: 520px;
+  height: 320px;
+}
+.blog img {
+  width: 55%;
+  padding: 22px;
+}
+.blog .blogText {
+  padding: 13px;
+  margin-top: 35px;
+}
+.blogText a {
+  width: 80px;
+  border-radius: 5px;
+  height: 15px;
+  padding: 4px;
+  background-color: orangered;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  top: 23px;
+}
+
+.letter {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 43px;
+  background-color: rgb(63, 63, 198);
+}
+.letterText {
+  padding: auto;
+}
+.inp {
+  display: flex;
+}
+.inp input {
+  width: 330px;
+  height: 33px;
+  outline: none;
+  font-size: 18px;
+  border: none;
+}
+.inp button {
+  width: 100px;
+  height: 33px;
+  background-color: aquamarine;
+  color: white;
+  border: none;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 53px;
+}
+.footer .footerText {
+  margin-inline: 85px;
+}
+.footerText p {
+  margin-top: 11px;
+}
+.auth {
+  background-color: black;
+  color: #fff;
+  padding: 23px;
+  text-align: center;
+}
+
+/* About  */
+
+.about {
+  display: none;
+}
+.aboutus {
+  background-color: navy;
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+}
+.aboutText {
+  margin-top: 50px;
+}
+.me {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  background-color: white;
+  padding: 33px;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+}
+.me img {
+  width: 40%;
+}
+
+/* contact */
+.contact {
+  display: none;
+
+}
+
+.contactus {
+  background-color: navy;
+  color: white;
+  padding: 56px;
+  font-size: 18px;
+  /* text-align: center; */
+}
+.contactme {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin-top: 5%;
+  background-color: #fff;
+  color: black;
+
+  margin-left: 10%;
+}
+.contactme img {
+  width: 23%;
+  margin-top: 5%;
+}
+.contactText {
+  padding: 22px;
+  width: 500px;
+}
+
+.contactText p {
+  margin-top: 12px;
+}
+.form {
+  text-align: center;
+  margin-top: 5%;
+  padding: 22px;
+}
+.form input {
+  width: 200px;
+  height: 25px;
+  margin-top: 11px;
+  padding: 5px;
+}
+.form button {
+  width: 200px;
+  height: 36px;
+  background-color: orangered;
+  color: black;
+  font-size: 23px;
+  border: none;
+  margin-top: 23px;
+  border-radius: 10px;
+}
+
+/* cart */
+.cart{
+   
+    display: flex;
+    justify-content: center;
+     display: none;
+
+}
+.cart img {
+    width: 350px;
+}
+.cartText{
+    padding: 22px;
+    margin-top: 42px;
+}
+.cartText p {
+    margin-top: 12px;
+}
+.cartText h2{
+    margin-top: 12px;
+
+}
+
+.cartText .btn button {
+    width: 120px;
+    height: 40px;
+    background-color: orangered;
+    color: black;
+    border: none;
+    font-size: 15px;
+    margin-inline: 8px;
+    border-radius: 10px;
+  margin: 5px 5px;
+}
+.back{
+    width: 120px;
+    height: 40px;
+    background-color: orange;
+    color: black;
+    border: none;
+    font-size: 15px;
+    margin-inline: 8px;
+    border-radius: 10px;
+  margin: 5px 5px;
+}
